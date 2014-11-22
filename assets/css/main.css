@@ -1,0 +1,80 @@
+html {
+	color: #4a4a4a;
+}
+p, div, a, span, body, html, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #d4d4d4;
+}
+.main {
+	padding: 40px 20px;
+}
+.small {
+	font-size: 30px;
+	line-height: 40px;
+	color: #acacac;
+}
+.smaller {
+	font-size: 15px;
+	line-height: 15px;
+	color: rgba(255,255,255,0.4);
+}
+.big {
+	color: #D8B6B6;
+	font-size: 200px;
+	line-height: 200px;
+	z-index: -1;
+}
+header, footer {
+	text-align: center;
+	background: #999;
+	height: 30px;
+	width: 100%;
+	margin: 0;
+	position: fixed;
+	z-index: 1;
+	/*padding: 10px;*/
+}
+header > *, footer > * {
+	line-height: 30px;
+}
+header {
+	/*margin-bottom: 20px;*/
+	top: 0;
+}
+footer {
+	margin-top: 20px;
+	bottom: 0;
+	line-height: 28px;
+}
+section {
+	top: 25.1%;
+	left: 37.5%;
+	background: #eee;
+	box-shadow: 0 2px 5px 0px rgba(0,0,0,0.2);
+	min-height: 200px;
+	color: #fff;
+	width: 25%;
+	z-index: 0;
+}
+section.details {
+	background: #eef;
+}
+section header, section footer {
+	background: #ffd4d4;
+	position: absolute;
+	width: 100%;
+}
+section header {
+	top: 0;
+}
+section footer {
+	bottom: 0;
+}
+.content {
+	position: relative;
+	padding: 20px;
+	top: 20px;
+}
