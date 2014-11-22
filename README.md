@@ -1,0 +1,4 @@
+parallax
+========
+
+Parallax JS plugin
